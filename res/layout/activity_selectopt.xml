@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:weightSum="10"
+    android:background="#ffffff"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/viewid"
+    tools:context=".Selectopt">
+    <LinearLayout
+        android:layout_width="100dp"
+        android:layout_height="37dp"
+        android:orientation="horizontal"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="10dp"
+        android:weightSum="2">
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:src="@drawable/weseelg"></ImageView>
+        <TextView
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.5"
+            android:textSize="19dp"
+            android:layout_gravity="center_vertical"
+            android:textStyle="bold"
+            android:fontFamily="@font/proxima"
+            android:textColor="@color/pink"
+            android:text="We See"/>
+    </LinearLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:layout_weight="2"
+        android:fontFamily="@font/proxima"
+        android:layout_marginTop="90dp"
+        android:layout_gravity="center_horizontal"
+        android:textColor="@color/colorPrimaryDark"
+        android:text="Get onto the Board"/>
+
+
+        <ImageButton
+            android:id="@+id/imgbtnblnd"
+            android:src="@drawable/blindvector"
+            android:scaleType="fitCenter"
+            android:padding="30dp"
+            android:layout_marginTop="20dp"
+            android:adjustViewBounds="true"
+            android:layout_width="140dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_height="140dp"
+            android:background="@drawable/selectoptbtn" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:textSize="20dp"
+        android:layout_marginTop="10dp"
+        android:textStyle="bold"
+        android:fontFamily="@font/proxima"
+        android:layout_gravity="center_horizontal"
+        android:textColor="@color/colorPrimaryDark"
+        android:text="As a Blind Person"/>
+
+    <ImageButton
+        android:layout_gravity="center_horizontal"
+        android:layout_width="140dp"
+        android:layout_height="140dp"
+        android:scaleType="fitCenter"
+        android:adjustViewBounds="true"
+        android:padding="20dp"
+        android:layout_marginTop="50dp"
+        android:src="@drawable/volvector"
+        android:id="@+id/imgbtnvol"
+        android:background="@drawable/selectoptbtn"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:textSize="20dp"
+        android:fontFamily="@font/proxima"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center_horizontal"
+        android:textColor="@color/colorPrimaryDark"
+        android:text="As a Volunteer"/>
+
+
+
+
+</LinearLayout>

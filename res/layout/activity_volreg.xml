@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".Volreg">
+    <ImageView
+        android:layout_width="30dp"
+        android:id="@+id/gotooptfrmvolregVolunteerReg"
+        android:layout_marginLeft="20dp"
+        android:src="@drawable/ic_keyboard_backspace_black_24dp"
+        android:layout_marginTop="20dp"
+        android:layout_height="30dp"/>
+
+    <TextView
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center_horizontal"
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:textSize="28dp"
+        android:fontFamily="@font/proxima"
+        android:textStyle="bold"
+        android:text="Create Your Account"/>
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_marginTop="10dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/inputvolusnm">
+        <EditText
+            android:id="@+id/inputUserVolReg"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="20dp"
+            android:textSize="15dp"
+            android:drawablePadding="10dp"
+            android:fontFamily="@font/proxima"
+            android:drawableLeft="@drawable/ic_name"
+            android:hint="Username"
+            android:textColorHint="#C40C0326"
+            android:layout_gravity="center_horizontal"/>
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/inputvolmail">
+        <EditText
+            android:id="@+id/inputEmailVolReg"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="20dp"
+            android:fontFamily="@font/proxima"
+            android:hint="E-mail address"
+            android:drawablePadding="10dp"
+            android:drawableLeft="@drawable/ic_email"
+            android:textSize="15dp"
+            android:inputType="textEmailAddress"
+            android:textColorHint="#C40C0326"
+            android:layout_gravity="center_horizontal" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/inputvolphno">
+        <EditText
+            android:id="@+id/inputphoneNoVolReg"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:drawablePadding="10dp"
+            android:fontFamily="@font/proxima"
+            android:drawableLeft="@drawable/ic_smartphone"
+            android:layout_marginTop="20dp"
+            android:textSize="15dp"
+            android:hint="Phone Number"
+            android:textColorHint="#C40C0326"
+            android:maxLength="10"
+            android:inputType="number"
+            android:layout_gravity="center_horizontal" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+
+
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/inputvolcity">
+        <EditText
+            android:id="@+id/inputCityVolReg"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:drawableLeft="@drawable/ic_buildings"
+            android:drawablePadding="10dp"
+            android:fontFamily="@font/proxima"
+            android:layout_marginTop="20dp"
+            android:hint="Enter your City Name"
+            android:textColorHint="#C40C0326"
+            android:layout_gravity="center_horizontal"
+            android:textSize="15dp"/>
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+
+
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/proxima"
+        android:textColor="#fff"
+        android:textSize="15dp"
+        android:id="@+id/volregbtnVolunteerReg"
+        android:layout_marginTop="40dp"
+        android:layout_gravity="center"
+        android:textStyle="bold"
+        android:background="@drawable/buttonstlepink"
+        android:text="Register"/>
+
+</LinearLayout>

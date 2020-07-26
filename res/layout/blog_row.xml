@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    app:cardCornerRadius="25dp"
+    android:background="#fff"
+    android:layout_margin="5dp"
+    android:elevation="10dp"
+    app:cardElevation="5dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/edittxtsty">
+
+        <TextView
+            android:id="@+id/msg_userName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:textColor="@color/colorPrimaryDark"
+            android:fontFamily="@font/proxima"
+            android:text="User name"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:layout_marginTop="1dp"
+            />
+
+        <morxander.zaman.ZamanTextView
+            android:id="@+id/timeStamp"
+            android:layout_width="wrap_content"
+            android:textColor="@color/colorPrimaryDark"
+            android:layout_marginTop="3dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_marginRight="10dp"
+            />
+
+        <TextView
+            android:id="@+id/msg_body"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorPrimaryDark"
+            android:layout_marginBottom="8dp"
+            android:layout_marginStart="25dp"
+            android:layout_marginTop="5dp"
+            android:layout_below="@id/msg_userName"/>
+
+        <Button
+            android:id="@+id/btnlink"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="View Location"
+            android:textColor="#fff"
+            android:textStyle="bold"
+            android:fontFamily="@font/proxima"
+            android:layout_marginLeft="20dp"
+            android:background="@drawable/buttonstlepink"
+            android:layout_below="@id/msg_body" />
+
+        <Button
+            android:id="@+id/btnHelp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Help"
+            android:textColor="#fff"
+            android:textStyle="bold"
+            android:fontFamily="@font/proxima"
+            android:layout_marginLeft="240dp"
+            android:background="@drawable/buttonstlepink"
+            android:layout_below="@id/msg_body" />
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

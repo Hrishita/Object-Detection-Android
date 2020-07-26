@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <group android:checkableBehavior="single"/>
+
+
+    <item android:title="Profile">
+
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/nav_currloc"
+                    android:icon="@drawable/ic_place_black_24dp"
+                    android:title="Current Location" />
+                <item
+                    android:id="@+id/nav_endis"
+                    android:icon="@drawable/ic_swap_calls_black_24dp"
+                    android:title="Enable/Disable" />
+                <item
+                    android:id="@+id/nav_logout"
+                    android:icon="@drawable/ic_remove_circle_outline_black_24dp"
+                    android:title="Logout" />
+            </group>
+        </menu>
+
+    </item>
+
+
+    <item android:title="Communicate">
+
+        <menu>
+
+            <item
+                android:id="@+id/nav_contact"
+                android:icon="@drawable/ic_contacts_black_24dp"
+                android:title="Contact Us" />
+            <item
+                android:id="@+id/nav_abtus"
+                android:icon="@drawable/ic_info_black_24dp"
+                android:title="About Us" />
+
+
+        </menu>
+
+    </item>
+</menu>
